@@ -7,8 +7,7 @@ header {
     font-family: arial, sans-serif; 
     text-align: center;
     text-transform: uppercase;
-    background-image: url(https://cdn1.snowpak.com/images/images/000/010/267/medium/Sun-Valley-enjoy_lots_of_bluebird_days_at_sun_valley%28resort-FB%29.jpg?1600757352);
-    background-size: contain;
+    
 }
 
 li {
@@ -17,7 +16,9 @@ li {
 
 body {
     background-color: rgb(243, 243, 243);
-    color: #011927;   
+    color: #011927;  
+    background-image: url(https://images.unsplash.com/photo-1589405858862-2ac9cbb41321?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: 100% 100%; 
 }
 
 /* id selectors */
@@ -37,3 +38,8 @@ body {
     font-size: 75px;
     color:#042940;
 }
+
+
+
+/* https://images.unsplash.com/photo-1589405858862-2ac9cbb41321?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80 */
+/* https://cdn1.snowpak.com/images/images/000/010/267/medium/Sun-Valley-enjoy_lots_of_bluebird_days_at_sun_valley%28resort-FB%29.jpg?1600757352 */
