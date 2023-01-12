@@ -8,7 +8,24 @@
 
 <body>
 
+
+
     <header>
+
+        <script>
+            let userName = prompt("Halt! Who Goes There?");
+            console.log(userName);
+            if (userName == false) {
+                userName = prompt("Last Chance Buddy, Who Are Ya?");
+            }
+            if (userName != false) {
+                alert("Welcome to the Thunderdome, " + userName + "!");
+            }
+            else if (userName == false) {
+                alert("GET LOST, NERD!");
+            }
+        </script>
+
         <h1 id="mainTitle">The Great White North</h1>
         <nav>
             <ul>
@@ -24,6 +41,8 @@
             </ul>
         </nav>
     </header>
+
+
 
     <img id="hero"
         src="https://cdn1.snowpak.com/images/images/000/010/267/medium/Sun-Valley-enjoy_lots_of_bluebird_days_at_sun_valley%28resort-FB%29.jpg?1600757352" />
