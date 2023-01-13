@@ -18,7 +18,7 @@
 
 // Below is the assignment for 102 Class 8
 
-function userIdentity() {
+function getUserIdentity() {
     let userIdentity = prompt("Halt! Who Goes There?!");
 
     console.log(userIdentity);
@@ -28,17 +28,28 @@ function userIdentity() {
     } if (userIdentity != false) {
         alert("Welcome to the Thunderdome, " + userIdentity + "!")
     }
-    document.write("Check out all the PROs and CONs of Idaho, " + userIdentity + "!")
+    document.write('Check out all the PROs and <a href="https:////www.kcsheriff.com//169//In-Custody-Report">CONs</a> of Idaho, ' + userIdentity + '!')
 }
 
 function repeatImage() {
     let userNumber = prompt("On a scale of 1 to 5, with 1 being the lowest and 5 being the highest, how would YOU rate Idaho?")
+    while (userNumber < 1 || userNumber > 5) {
+        userNumber = prompt("Must be a number between 1 and 5. Like, literally, 1 or 2 or 3 or 4 or even 5. Preferably 5. Yeah, go with 5.")
+    }
+
     userNumber = parseInt(userNumber)
     console.log(userNumber)
-    for (let i = 1; i < userNumber && userNumber <= 5; i++) {
+    for (let i = 0; i < userNumber; i++) {
         document.write('<img src ="./img/idahoStateFlag2.webp"/>')
     }
 }
+
+//i = 0; userNumber && userNumber <=5; i++
+// validate the user input and always handle errors first
+
+// function CONs(){
+//     let CONs = <a href="https://www.kcsheriff.com/169/In-Custody-Report"></a>
+// }
 
 
 
