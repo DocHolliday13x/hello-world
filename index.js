@@ -35,7 +35,8 @@ function repeatImage() {
     let userNumber = prompt("On a scale of 1 to 5, with 1 being the lowest and 5 being the highest, how would YOU rate Idaho?")
     while (userNumber < 1 || userNumber > 5) {
         userNumber = prompt("Must be a number between 1 and 5. Like, literally, 1 or 2 or 3 or 4 or even 5. Preferably 5. Yeah, go with 5.")
-    }
+        console.log(userNumber);
+    } 
 
     userNumber = parseInt(userNumber)
     console.log(userNumber)
