@@ -36,7 +36,7 @@ function repeatImage() {
     userNumber = parseInt(userNumber)
     console.log(userNumber)
     for (let i = 1; i < userNumber && userNumber <= 5; i++) {
-        document.write("<img src = ''>")
+        document.write('<img src ="./img/idahoStateFlag2.webp"/>')
     }
 }
 
