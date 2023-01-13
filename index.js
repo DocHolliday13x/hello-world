@@ -70,3 +70,7 @@ function repeatImage() {
 //         document.write('')
 //     }
 // }
+
+
+// console.log("hello " + variableName + "!")    <-- string concat
+// console.log("hello ${variableName}!")         <-- Template Literal
